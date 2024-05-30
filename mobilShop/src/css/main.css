@@ -1,0 +1,159 @@
+body {
+  background-color: #1a1818;
+  padding: 1rem;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-prudect {
+  width: 190px;
+  border-radius: 23px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-color-prudect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 190px;
+  height: 350px;
+  border-radius: 23px;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  margin-top: 30px;
+}
+
+.titel {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.de-text {
+  color: rgb(140, 140, 140);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-price {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.button-price button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 30px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: white;
+}
+.button-price .price {
+  color: rgb(15, 77, 192);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-main-ps {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  overflow-x: scroll;
+}
+.flex-main-ps::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+}
+.flex-main-ps::-webkit-scrollbar-thumb {
+  height: 3px;
+  border: 7px solid rgba(255, 255, 255, 0);
+  background-clip: padding-box;
+  border-radius: 100px;
+  background-color: gray;
+  box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.flex-main-ps::-webkit-scrollbar-thumb:hover {
+  border: 4px solid rgba(255, 255, 255, 0);
+  background-color: #fff;
+}
+
+.img-user {
+  width: 35px;
+}
+
+.search-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e1e1e;
+  outline: none;
+  color: #fff;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  box-shadow: 0px -1px 20px rgba(62, 62, 62, 0.815);
+}
+
+.img-cart {
+  width: 120px;
+  border-radius: 14px;
+}
+
+.main-color-cart {
+  display: flex;
+  width: 300px;
+  height: 80px;
+  align-items: center;
+  gap: 40px;
+  padding: 1.5rem;
+  background-color: #1e1e1e;
+  border-radius: 23px;
+  border: none;
+}
+.main-color-cart h2 {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-color-cart h3 {
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-color-cart p {
+  color: rgb(10, 50, 161);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main-search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.img-search {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.img-buy {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.buy-backgruond {
+  background-image: url("./public/t-shirt.jpg");
+  width: 500px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */

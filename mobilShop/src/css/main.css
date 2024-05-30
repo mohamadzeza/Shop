@@ -57,7 +57,8 @@ h1 {
   background-color: transparent;
   color: white;
 }
-.button-price .price {
+
+.price {
   color: rgb(15, 77, 192);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -151,9 +152,58 @@ h1 {
 }
 
 .buy-backgruond {
-  background-image: url("./public/t-shirt.jpg");
-  width: 500px;
-  height: 200px;
+  position: relative;
+}
+.buy-backgruond img {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  width: 455.5px;
+}
+
+.titel-buy {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  position: absolute;
+  top: 430px;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+}
+.star img {
+  width: 25px;
+}
+.star .red {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 100%;
+}
+.star .blue {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 100%;
+}
+.star .black {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 100%;
+}
+.star .stars {
+  margin-top: 50px;
+}
+.star .color {
+  display: flex;
+  gap: 10px;
+}
+.star h3 {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

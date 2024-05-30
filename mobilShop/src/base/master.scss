@@ -51,11 +51,11 @@ h1{
         background-color: transparent;
         color: white;
     }
-    .price{
-    color:$blue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    }
+}
+.price{
+color:$blue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .flex-main-ps{
     display: flex;
     align-items: center;
@@ -139,7 +139,55 @@ h1{
     border-radius: 10px;
 }
 .buy-backgruond{
-    background-image: url("./public/t-shirt.jpg");
-    width: 500px;
-    height: 200px;
+    position: relative;
+    img{
+        position: absolute;
+        left: -50px;
+        top: -50px;
+        width: 455.5px;
+    }
+    
+}
+.titel-buy{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    position: absolute;
+    top: 430px;
+}
+.star{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 25px;
+    }
+    .red{
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        border-radius: 100%;
+    }
+    .blue{
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        border-radius: 100%;
+    }
+    .black{
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border-radius: 100%;
+    }
+    .stars{
+        margin-top: 50px;
+    }
+    .color{
+        display: flex;
+        gap: 10px;
+    }
+    h3{
+        color: $white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }

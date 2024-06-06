@@ -1,13 +1,11 @@
 import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 function buy(){
-    let redcolor = document.getElementsByClassName('red')
-    function red(){
-      redcolor.current.style.backgruond = "blue"
-    }
  return(
     <>
     <div>
         <div className="buy-backgruond">
+            <Link to={"./Prudect"}><button className="Backe">Back</button></Link>
           <img src="./public/t-shirt.jpg" alt="" />
         </div>
         <div>
@@ -26,13 +24,13 @@ function buy(){
                     </div>
                     <h3>color ouption :</h3>
                     <div className="color">
-                    <div className="red" onClick={red}></div>
+                    <div className="red" ></div>
                     <div className="blue"></div>
                     <div className="black"></div>
                     </div>
                 </div>
             </div>
-            <button></button>
+            <button>buy</button>
 
         </div>
     </div>

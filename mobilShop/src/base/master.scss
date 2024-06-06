@@ -1,8 +1,11 @@
 @use "./letProject.scss" as *;
+*{
+    text-decoration: none;
+}
 body{
     background-color: $backgruond;
-    padding: 1rem;
 }
+
 h1{
     color: $white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -139,21 +142,34 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
 }
 .buy-backgruond{
+    max-width: 480px;
+    margin: 0 auto;
     position: relative;
     img{
-        position: absolute;
-        left: -50px;
-        top: -50px;
         width: 455.5px;
     }
     
 }
+.Backe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    background-color: $blue;
+}
 .titel-buy{
     display: flex;
     align-items: center;
-    gap: 150px;
-    position: absolute;
-    top: 430px;
+    gap: 240px;
 }
 .star{
     display: flex;
